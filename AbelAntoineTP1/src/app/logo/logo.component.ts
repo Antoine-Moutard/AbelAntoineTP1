@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-logo',
@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './logo.component.scss'
 })
 export class LogoComponent {
+  @Output() changeBgEvent = new EventEmitter<string>();
 
+  changeBg(color: string) {
+    this.changeBgEvent.emit(color);
+    console.log(color);
+  }
 }

@@ -1,3 +1,20 @@
-<app-header></app-header>
-<app-logo></app-logo>
-<app-footer></app-footer>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body [ngClass]="bgColor">
+    <div class = "aaa" >
+        <app-header></app-header>
+
+        <app-logo (changeBgEvent)="changeBg($event)"></app-logo>
+
+        <app-footer></app-footer>
+    </div>
+</body>
+
+</html>
