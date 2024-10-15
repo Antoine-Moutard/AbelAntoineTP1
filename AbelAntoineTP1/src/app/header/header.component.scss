@@ -1,0 +1,15 @@
+.header {
+    width: 100%;
+    top: 0;
+    background-color: violet;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+}
+
+.nom {
+    padding: 5px;
+}

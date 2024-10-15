@@ -1,0 +1,46 @@
+.logo{
+    position: absolute;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    height: 99%;
+    width: 99%;
+}
+
+.box {
+    height : 400px;
+    width: 400px;
+    border: 1px black solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.topleft {
+    background-color: #F25022;
+    height: 150px;
+    width: 150px;
+    margin: 6px;
+}
+
+.topright {
+    background-color: #80B90A;
+    height: 150px;
+    width: 150px;
+    margin: 6px;
+}
+
+.bottomleft {
+    background-color: #029BE1;
+    height: 150px;
+    width: 150px;
+    margin: 6px;
+}
+
+.bottomright {
+    background-color: #F0B006;
+    height: 150px;
+    width: 150px;
+    margin: 6px;
+}
